@@ -1,3 +1,7 @@
+"""
+	This is a time dependent frequency components texture, based on the initial components pre-computed in h0(k) and h0(-k)
+	In conjunction with the twiddle factors, we can now Generate an FFT based ocean animation
+"""
 import h0k
 import numpy as np
 from h0k import N, L, g, imageStore
