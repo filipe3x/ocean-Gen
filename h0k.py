@@ -111,6 +111,7 @@ def staticFrequencies():
 			tilde_h0k[x,y] = [gauss_random[0]*h0k, gauss_random[1]*h0k, 0,1] #r,g,b,a
 			## last two components
 			tilde_h0minusk[x,y] = [gauss_random[2]*h0minusk, gauss_random[3]*h0minusk, 0,1] #r,g,b,a
+	return tilde_h0k, tilde_h0minusk
 
 if __name__ ==  '__main__':
 	staticFrequencies();
